@@ -1,3 +1,38 @@
+body{
+    margin: auto;
+    background-color :hsl(192, 40%, 10%);
+    font-family: 'Times New Roman', Times, serif;  
+    width: 1000px;
+}
+
+.photo{
+    border-radius: 50%;
+    border: 2px solid darkgoldenrod;
+}
+
+#title, .subtitle, .post_title{
+    color :darkgoldenrod;
+}
+#title, .subtitle{
+    text-align: center;
+}
 #title{
-    color :crimson
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.post, .contact{
+    background :whitesmoke;
+    padding: 10px;
+    border: 4px solid darkgoldenrod;
+    border-radius: 2%;  
+}   
+
+.carac{
+    list-style: none;
+    margin-left: none; 
+}
+
+a{
+    text-decoration: underline;
+    color: hsl(192, 40%, 10%);
 }
